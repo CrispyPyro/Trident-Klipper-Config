@@ -1,7 +1,7 @@
 # voron-trident-vt.xxx-klipper-backup
 Automated backup of klipper config
 
-Voron Trident 300mm (unserialed)
+Voron Trident 300mm VT.1415
 
 discord: crispypyro
 
