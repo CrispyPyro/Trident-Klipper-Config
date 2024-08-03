@@ -21,6 +21,9 @@ trusted_clients =
 	192.168.0.0/16
 	FE80::/10
 	::1/128
+	100.113.163.99
+	100.71.74.109
+	100.111.72.90
 
 [octoprint_compat]
 
@@ -29,6 +32,10 @@ trusted_clients =
 [announcements]
 subscriptions = 
 	mainsail
+
+[spoolman]
+server = http://192.168.1.113:7912
+sync_rate = 5
 
 [update_manager]
 refresh_interval = 168
@@ -96,5 +103,4 @@ path = ~/klipper_tmc_autotune
 origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services = klipper
 primary_branch = main
-install_script = install.sh
 
